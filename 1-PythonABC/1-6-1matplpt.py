@@ -1,6 +1,4 @@
 
-#%%
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -11,4 +9,3 @@ y = np.sin(x)
 # グラフの描画
 plt.plot(x, y)
 plt.show()
-# %%
