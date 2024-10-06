@@ -1,5 +1,9 @@
 # ゼロから作るディープラーニング
 
+## GitHub リポジトリ
+
+https://github.com/oreilly-japan/deep-learning-from-scratch
+
 ## Python コード規約
 
 https://pep8-ja.readthedocs.io/ja/latest/
