@@ -1,3 +1,4 @@
+
 import pytest
 
 from logical_operator_v2 import AND, NAND, OR, XOR
