@@ -28,3 +28,6 @@ def OR(x: np.array)->int:
         return 0
     elif tmp > 0:
         return 1
+
+def XOR(x: np.array)->int:
+    return AND(np.array([OR(x), NAND(x)]))
