@@ -18,4 +18,4 @@ from step_func import step_function
      np.array([ 0,    0, 0,   1, 1])),
 ])
 def test_step_func(x, expected):
-    assert step_function(x) == expected
+    assert np.array_equal(step_function(x), expected)
