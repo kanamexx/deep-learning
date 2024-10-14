@@ -43,3 +43,19 @@ $$
 - 共通点
   - 定義域が任意の実数
   - 値域が $(0, 1)$
+
+# 3.5.2
+
+
+$$
+\begin{align*}
+
+   y_k &= \frac{\exp{(a_k)}}{\displaystyle\sum\limits_{i=1}^n \exp{(a_i)}}  \\
+        &= \frac{C\exp{(a_k)}}{C \displaystyle\sum\limits_{i=1}^n \exp{(a_i)}}  \\
+        &= \frac{\exp{(a_k + \log C)}}{\displaystyle\sum\limits_{i=1}^n \exp{(a_i + \log C)}} 
+          & (\because C = e^{\log C} \Leftrightarrow \log C = log C) \\
+        &= \frac{\exp{(a_k + C')}}{\displaystyle\sum\limits_{i=1}^n \exp{(a_i + C')}} 
+          & (\because \log C = C') \\
+
+\end{align*}
+$$
