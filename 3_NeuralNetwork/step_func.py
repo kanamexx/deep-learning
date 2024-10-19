@@ -20,3 +20,14 @@ y = step_function(x)
 plt.plot(x, y)
 plt.ylim(-0.1, 1.1) # y軸の範囲を指定
 plt.show()
+
+
+print("tst")
+x = np.array([
+    [0.1, 0.8, 0.1],
+    [0.3, 0.1, 0.6],
+    [0.2, 0.5, 0.3],
+    [0.8, 0.1, 0.1]])
+
+max = np.argmax(x, axis=0)
+print(max)
